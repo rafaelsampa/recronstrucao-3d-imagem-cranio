@@ -1,0 +1,13 @@
+# Ambiente virtual
+.venv/
+
+# Cache do Python e do Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Modelos 3D gerados (podem ser recriados pelo notebook 06)
+results/models/
+
+# Dados DICOM (descomente se NAO quiser subir as imagens)
+# data/
